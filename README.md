@@ -112,9 +112,12 @@ It's not a Claw but there are some simmilarities.
   ModelSpec drives Kalman filtering, multi-asset Monte Carlo, and
   historical-VaR correlation shocks.
   
-- [cai-constitution-bootstrap](https://github.com/abstractionlair/cai-constitution-bootstrap)
-  — automated Constitutional AI training pipeline experiment.
-  FIXME
+- [automated-post-training](https://github.com/abstractionlair/automated-post-training)
+  — automated Constitutional-AI-style post-training experiment: generating
+  training data by smart-prompting base models, with contamination guards and
+  hard validity gates. Its headline early result was invalidated by its own
+  in-repo review — and both the result and the invalidation are preserved,
+  which is the part I'd want a reader to see.
   
 - [vector-space-generation](https://github.com/abstractionlair/vector-space-generation)
   — exploring language-model generation in continuous vector space. A negative
