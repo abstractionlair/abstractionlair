@@ -87,7 +87,7 @@ It's not a Claw but there are some simmilarities.
   distilled, importable process for spec-driven development with multi-model
   review gates: Vision → Scope → Roadmap → Spec → Skeleton → Tests →
   Implementation, each stage gated by independent model reviewers. The far
-  end of an arc of coordination experiments — giving models email to message
+  end of another arc of experiments — giving models email to message
   each other (MultiModelCLIEmail), then a CLI harness — reasoned through in
   [dev_workflow_meta](https://github.com/abstractionlair/dev_workflow_meta)
   (why conversation-driven agent work degrades as a project grows) and
@@ -104,8 +104,11 @@ It's not a Claw but there are some simmilarities.
   ur-ancestor (2024): a multi-model, tool-using CLI coding assistant built
   *before Claude Code existed*, measured against Claude Projects — where it
   fell short, and where its diagnosis (ambient context was the missing piece)
-  held up. The one repo here I wrote and debugged by hand; the baseline the
-  rest of this list's delegation is measured against.
+  held up. The one repo listed here I wrote and debugged significantly by hand.
+  I'd ask a model, usually Claude, in the chat interface to write parts or tell
+  me how an API worked, ... then copy it into the code, try it, fix things. But I
+  had the sense, and this was the project's motivation, that the models _could_
+  just write this stuff if given the right infrastructure, tools, etc. 
   
 - [quant-ingestion-and-simulation](https://github.com/abstractionlair/quant-ingestion-and-simulation)
   — state-space framework where ingestion is inverse simulation: one
@@ -113,11 +116,12 @@ It's not a Claw but there are some simmilarities.
   historical-VaR correlation shocks.
   
 - [automated-post-training](https://github.com/abstractionlair/automated-post-training)
-  — automated Constitutional-AI-style post-training experiment: generating
+  — automated post-training experiment inspired by Constitutional AI: generating
   training data by smart-prompting base models, with contamination guards and
   hard validity gates. Its headline early result was invalidated by its own
   in-repo review — and both the result and the invalidation are preserved,
-  which is the part I'd want a reader to see.
+  which is the part I'd want a reader to see. (I think I, plus newer models,
+  could make this work today.)
   
 - [vector-space-generation](https://github.com/abstractionlair/vector-space-generation)
   — exploring language-model generation in continuous vector space. A negative
@@ -136,17 +140,18 @@ It's not a Claw but there are some simmilarities.
   multi-model web chat: one conversation, several frontier models, with
   projects, file context, and full-text search. **Try it live:**
   [chat.abstractionlair.xyz](https://chat.abstractionlair.xyz) (a public
-  sandbox running cheap models, with cost controls). Code-execution phase
-  specced, not started.
+  sandbox restricted to cheap models, with cost controls). Code-execution phase
+  specced, not started. (TUI harnesses like Claude Code and Codex plus the multi-model
+  interaction tools on claude-hub now fill the role this would have filled.)
 
 - [portfolio-tool](https://github.com/abstractionlair/portfolio-tool) — an
   experiment in pure "vibe coding": how far could I get letting the models
   write essentially all of it, hands off the wheel? Far enough to be
-  interesting, not far enough to be how I work. Independent model reviews
+  interesting, not far enough to be releasable. Independent model reviews
   found the financial math held up but the engineering around it didn't —
   and the multi-model review infrastructure I built since kept catching real
-  bugs that vibe-coding alone had left in. The README says so plainly.
+  bugs that vibe-coding alone had left in. The README explains.
 
-The unifying question: how much of software development — and knowledge
-work generally — can one person responsibly delegate to models, and how do
-you instrument the answer instead of guessing at it?
+A unifying question: how much of software development — and knowledge
+work generally — can you responsibly delegate to models, and when you do,
+how do know the results are good?
