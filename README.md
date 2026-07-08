@@ -31,7 +31,11 @@ of changes all at once.
 - I have amassed a lot of stuff that I've been telling myself I _should_ write up. This is my attempt to make myself do it.
 - First post: multi-model code review: If a model writes code or creates another kind of artifact, will review by other models with different lineages find more bugs than reviews by the same model or models in the same lineage? And, for smaller/weaker models, do they do better if asked to just point to potential bugs/errors without trying to explain or suggest fixes?
 
-**An arc through some of these repos** Last October I was running multi-model
+## Repos
+
+### An arc through some of these repos
+
+Last October I was running multi-model
 conversations by hand — copying and pasting between chat interfaces. At some point
 I heard that Claude, in the web interface, had gotten good at writing web apps
 as artifacts so I asked it in a new conversation to automate this by writing a simple
@@ -57,7 +61,9 @@ graph, the multi-model review engine, the dev workflow, grew out of managing
 this kind work. It was also a playground for testing ideas I would later use in my day job.
 It's not a Claw but there are some simmilarities.
 
-**Selected repos:** (Some completed projects, some ongoing.)
+### Selected repos
+
+Some completed projects, some ongoing.
 
 - [claude-hub](https://github.com/abstractionlair/claude-hub) — the hub of my
   personal AI infrastructure: one authenticated door from any chat client to a
