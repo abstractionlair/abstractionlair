@@ -66,7 +66,7 @@ It's not a Claw but there are some simmilarities.
 
 Some completed projects, some ongoing.
 
-- [claude-hub](https://github.com/abstractionlair/claude-hub) — the hub of my
+- [claude-hub](https://github.com/abstractionlair/claude-hub): the hub of my
   personal AI infrastructure: one authenticated door from any chat client to a
   persistent, tool-equipped Claude Code backend (OAuth 2.1 + PKCE + TOTP at the
   boundary; 679 tests). The pieces I use hardest: the work graph — which tracks
@@ -76,8 +76,8 @@ Some completed projects, some ongoing.
   failure-mode taxonomy, and an artifact store with semantic search. (The work
   graph is pretty new but I'm very happy with how it's going.)
   
-- [one-spec-five-agents](https://github.com/abstractionlair/one-spec-five-agents)
-  — a controlled comparison of five AI coding systems handed one identical,
+- [one-spec-five-agents](https://github.com/abstractionlair/one-spec-five-agents):
+  a controlled comparison of five AI coding systems handed one identical,
   fully specified project. Findings: agents complete the documented plan, not
   the spec inventory; same model under different harnesses diverges materially;
   self-reported completion runs backwards to competence. Includes the builds,
@@ -86,12 +86,12 @@ Some completed projects, some ongoing.
   I'd done (based on the code, mining logs, ...) gave me the idea of having this one
   written up in a novel way: First person from Claude's perspective.
   
-- [model-collaboration-study](https://github.com/abstractionlair/model-collaboration-study)
-  — pre-registered experiment: do collaboration structures (debate, peer
+- [model-collaboration-study](https://github.com/abstractionlair/model-collaboration-study):
+  a pre-registered experiment: do collaboration structures (debate, peer
   review, fusion) beat a single model at fixed budget? Typed IR for protocol
   composition; power analysis before kickoff.
   
-- [dev-workflow](https://github.com/abstractionlair/dev-workflow) — a
+- [dev-workflow](https://github.com/abstractionlair/dev-workflow): a
   distilled, importable process for spec-driven development with multi-model
   review gates: Vision → Scope → Roadmap → Spec → Skeleton → Tests →
   Implementation, each stage gated by independent model reviewers. The far
@@ -102,49 +102,49 @@ Some completed projects, some ongoing.
   distilled here into a process that deliberately drops message-passing for
   shared files and roles.
   
-- [prediction-markets](https://github.com/abstractionlair/prediction-markets)
-  — research and trading infrastructure for prediction markets: an estimator
+- [prediction-markets](https://github.com/abstractionlair/prediction-markets):
+  a research and trading infrastructure for prediction markets: an estimator
   framework built for temporal integrity (no look-ahead at the estimator
   interface, by construction), calibration studies against market outcomes,
   backtests, and a live trading loop.
   
-- [airproject](https://github.com/abstractionlair/airproject) — the
-  ur-ancestor (2024): a multi-model, tool-using CLI coding assistant built
-  *before Claude Code existed*, measured against Claude Projects — where it
-  fell short, and where its diagnosis (ambient context was the missing piece)
-  held up. The one repo listed here I wrote and debugged significantly by hand.
+- [airproject](https://github.com/abstractionlair/airproject):
+  my first step going beyond chat (2024): a multi-model, tool-using CLI coding assistant,
+  inspired by Claude Projects and groping towards what Claude Code eventually delivered.
+  It fell short, but writing it and learning why it fell short was very educational.
+  This is the one repo on this short list that I wrote and debugged significantly by hand.
   I'd ask a model, usually Claude, in the chat interface to write parts or tell
   me how an API worked, ... then copy it into the code, try it, fix things. But I
   had the sense, and this was the project's motivation, that the models _could_
   just write this stuff if given the right infrastructure, tools, etc. 
   
-- [quant-ingestion-and-simulation](https://github.com/abstractionlair/quant-ingestion-and-simulation)
-  — state-space framework where ingestion is inverse simulation: one
+- [quant-ingestion-and-simulation](https://github.com/abstractionlair/quant-ingestion-and-simulation):
+  state-space framework where ingestion is inverse simulation: one
   ModelSpec drives Kalman filtering, multi-asset Monte Carlo, and
   historical-VaR correlation shocks.
   
-- [automated-post-training](https://github.com/abstractionlair/automated-post-training)
-  — automated post-training experiment inspired by Constitutional AI: generating
+- [automated-post-training](https://github.com/abstractionlair/automated-post-training):
+  an automated post-training experiment inspired by Constitutional AI: generating
   training data by smart-prompting base models, with contamination guards and
   hard validity gates. Its headline early result was invalidated by its own
   in-repo review — and both the result and the invalidation are preserved,
   which is the part I'd want a reader to see. (I think I, plus newer models,
   could make this work today.)
   
-- [vector-space-generation](https://github.com/abstractionlair/vector-space-generation)
-  — exploring language-model generation in continuous vector space. A negative
+- [vector-space-generation](https://github.com/abstractionlair/vector-space-generation):
+  exploring language-model generation in continuous vector space. A negative
   result published with its raw outputs — and with the review-found bugs that
   bound what the negative result can claim.
 
-- [claude-college](https://github.com/abstractionlair/claude-college) —
+- [claude-college](https://github.com/abstractionlair/claude-college):
   conversation-native Socratic tutoring system (mastery gates, spaced
   repetition), with a real sample session included.
   
-- [claude-camp](https://github.com/abstractionlair/claude-camp) — interview
+- [claude-camp](https://github.com/abstractionlair/claude-camp): interview
   prep pairing chat-Claude orchestration with Claude Code problem
   generation and critique.
 
-- [MultiModelChat](https://github.com/abstractionlair/MultiModelChat) —
+- [MultiModelChat](https://github.com/abstractionlair/MultiModelChat):
   multi-model web chat: one conversation, several frontier models, with
   projects, file context, and full-text search. **Try it live:**
   [chat.abstractionlair.xyz](https://chat.abstractionlair.xyz) (a public
@@ -152,7 +152,7 @@ Some completed projects, some ongoing.
   specced, not started. (TUI harnesses like Claude Code and Codex plus the multi-model
   interaction tools on claude-hub now fill the role this would have filled.)
 
-- [portfolio-tool](https://github.com/abstractionlair/portfolio-tool) — an
+- [portfolio-tool](https://github.com/abstractionlair/portfolio-tool): an
   experiment in pure "vibe coding": how far could I get letting the models
   write essentially all of it, hands off the wheel? Far enough to be
   interesting, not far enough to be releasable. Independent model reviews
