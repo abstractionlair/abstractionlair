@@ -26,7 +26,8 @@ In July 2026, while I had access to Claude Fable 5 through my Anthropic subscrip
 (among others) to all my existing repos. I am very happy with how this went and it is the reason for the flurry
 of changes all at once.
 
-**Writing:** [writingcommitmentdevice.substack.com](https://writingcommitmentdevice.substack.com)
+## Writing
+[writingcommitmentdevice.substack.com](https://writingcommitmentdevice.substack.com)
 - I have amassed a lot of stuff that I've been telling myself I _should_ write up. This is my attempt to make myself do it.
 - First post: multi-model code review: If a model writes code or creates another kind of artifact, will review by other models with different lineages find more bugs than reviews by the same model or models in the same lineage? And, for smaller/weaker models, do they do better if asked to just point to potential bugs/errors without trying to explain or suggest fixes?
 
