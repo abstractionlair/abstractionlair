@@ -95,12 +95,13 @@ Some completed projects, some ongoing.
   distilled, importable process for spec-driven development with multi-model
   review gates: Vision → Scope → Roadmap → Spec → Skeleton → Tests →
   Implementation, each stage gated by independent model reviewers. The far
-  end of another arc of experiments — giving models email to message
-  each other (MultiModelCLIEmail), then a CLI harness — reasoned through in
+  end of another arc of experiments: first giving models email to message
+  each other ([MultiModelCLIEmail](https://github.com/abstractionlair/MultiModelCLIEmail)),
+  then a CLI harness. The lesson — conversation-driven agent work degrades
+  as a project grows — is reasoned through in
   [dev_workflow_meta](https://github.com/abstractionlair/dev_workflow_meta)
-  (why conversation-driven agent work degrades as a project grows) and
-  distilled here into a process that deliberately drops message-passing for
-  shared files and roles.
+  and distilled here into a process that deliberately drops message-passing
+  for shared files and roles.
   
 - [prediction-markets](https://github.com/abstractionlair/prediction-markets):
   a research and trading infrastructure for prediction markets: an estimator
