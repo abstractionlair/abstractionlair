@@ -48,19 +48,19 @@ working multi-model web chat that I could run from my machine. It was actually u
 I used it to have some substantial conversations with a Claude, a GPT, a Gemini, and a Grok,
 IIRC. (Somewhat expensive though.)
 When Gemini 3 and Antigravity launched in November, I turned the same idea into an
-experiment.  With AI help, I wrote a detailed spec and other docs descrining the app I wanted
-five coding model and harness combinations to reimplement it in one go, and compared the builds:
+experiment.  With AI help, I wrote a detailed spec and other docs describing the app I wanted
+five coding model and harness combinations to reimplement in one go, and compared the builds:
 [one-spec-five-agents](https://github.com/abstractionlair/one-spec-five-agents).
-That repo containts the spec, all five builds, the (much more recent) comparison study, and the
-story of how I forgot I'd run the experiment how it got recovered and evaluated.
+That repo contains the spec, all five builds, the (much more recent) comparison study, and the
+story of how I forgot I'd run the experiment and how it got recovered and evaluated.
 In December, I realized I could both give a permanent home to apps like this and work around
 the CORS issue and similar issues (which I may have just been assuming existed based on extrapolation)
-by geting a VPS and giving Claudes in the web app access to it via MCP. That led to
+by getting a VPS and giving Claudes in the web app access to it via MCP. That led to
 [claude-hub](https://github.com/abstractionlair/claude-hub). This became my general dev box, and the home
 of multiple AI-backed or AI-helping services. Much of what's below, the work
 graph, the multi-model review engine, the dev workflow, grew out of managing
-this kind work. It was also a playground for testing ideas I would later use in my day job.
-It's not a Claw but there are some simmilarities.
+this kind of work. It was also a playground for testing ideas I would later use in my day job.
+It's not a Claw but there are some similarities.
 
 ### Selected repos
 
@@ -113,6 +113,10 @@ Some completed projects, some ongoing.
   my first step going beyond chat (2024): an attempt at a multi-model, tool-using CLI coding assistant,
   inspired by Claude Projects and groping towards what Claude Code eventually delivered.
   It fell short, but writing it and learning why it fell short was very educational.
+  The diagnosis — the missing piece was ambient context, standing awareness pushed
+  into the model rather than files it had to think to go read — is a principle that
+  reappears in claude-hub's
+  [window-file continuity](https://github.com/abstractionlair/claude-hub#window-file-continuity).
   This is the one repo on this short list that I wrote and debugged significantly by hand.
   I'd ask a model, usually Claude, in the chat interface to write parts or tell
   me how an API worked, ... then copy it into the code, try it, fix things. But I
