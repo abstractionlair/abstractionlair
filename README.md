@@ -110,7 +110,7 @@ Some completed projects, some ongoing.
   backtests, and a live trading loop.
   
 - [airproject](https://github.com/abstractionlair/airproject):
-  my first step going beyond chat (2024): a multi-model, tool-using CLI coding assistant,
+  my first step going beyond chat (2024): an attempt at a multi-model, tool-using CLI coding assistant,
   inspired by Claude Projects and groping towards what Claude Code eventually delivered.
   It fell short, but writing it and learning why it fell short was very educational.
   This is the one repo on this short list that I wrote and debugged significantly by hand.
