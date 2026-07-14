@@ -174,6 +174,13 @@ Some completed projects, some ongoing.
   and the multi-model review infrastructure I built since kept catching real
   bugs that vibe-coding alone had left in. The README explains.
 
+- [gtd-graph](https://github.com/abstractionlair/gtd-graph): an
+  ontology-driven GTD knowledge graph maintained by an LLM agent through
+  pull requests — the schema is the contract; the agent is the runtime.
+  The public repo is the skeleton: the system I actually ran on it used
+  git for persistence and held personal data, which stays out of a
+  public repo.
+
 A unifying question: how much of software development — and knowledge
 work generally — can you responsibly delegate to models, and when you do,
 how do know the results are good?
