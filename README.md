@@ -140,10 +140,6 @@ Some completed projects, some ongoing.
   exploring language-model generation in continuous vector space. A negative
   result published with its raw outputs — and with the review-found bugs that
   bound what the negative result can claim.
-
-- [claude-college](https://github.com/abstractionlair/claude-college):
-  conversation-native Socratic tutoring system (mastery gates, spaced
-  repetition), with a real sample session included.
   
 - [claude-camp](https://github.com/abstractionlair/claude-camp): interview
   prep pairing chat-Claude orchestration with Claude Code problem
