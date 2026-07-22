@@ -139,7 +139,7 @@ Some completed projects, some ongoing.
   just write this stuff if given the right infrastructure, tools, etc. 
   
 - [quant-ingestion-and-simulation](https://github.com/abstractionlair/quant-ingestion-and-simulation):
-  state-space framework where ingestion is inverse simulation: one
+  state-space framework based on the idea that ingestion is inverse simulation: one
   ModelSpec drives Kalman filtering, multi-asset Monte Carlo, and
   historical-VaR correlation shocks.
   
