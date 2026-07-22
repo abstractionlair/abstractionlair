@@ -34,6 +34,19 @@ of changes all at once.
 
 ## Repos
 
+My repos are a sequence of experiments, in the research and
+development senses. Success is about the sequence not the individual
+experiments. It's useful stuff spinning out of the sequence at a high
+enough rate. And I wondered if I should consider it success so I
+looked into it: [the experiments chronology](experiments-chronology.md).
+I'd been thinking about this, and related
+topics, for a while before doing this check. Another result of that
+thinking was, starting in June 2026, to force myself to cap work in
+progress. I'm happy with how that's working out in terms of progress on
+the smaller number of projects I'm keeping active. But it does mean
+some projects that I started will have to wait a while for more
+attention.
+
 ### An arc through some of these repos
 
 Last October I was running multi-model
@@ -87,7 +100,7 @@ Some completed projects, some ongoing.
   written up in a novel way: First person from Claude's perspective.
   
 - [model-collaboration-study](https://github.com/abstractionlair/model-collaboration-study):
-  a pre-registered experiment: do collaboration structures (debate, peer
+  an experiment designed in the open before any data: do collaboration structures (debate, peer
   review, fusion) beat a single model at fixed budget? Typed IR for protocol
   composition; power analysis before kickoff.
   
