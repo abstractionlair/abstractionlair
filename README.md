@@ -3,7 +3,7 @@
 Quantitative researcher, software engineer, and hands-on engineering
 manager — ~20 years in financial markets, currently at Clearwater
 Analytics working on Beacon Platform, where I'm part house quant, part
-quant translator, part quant dev. Nobody appointed me to lead AI adoption
+quant translator, part quant dev. Nobody appointed me to promote AI adoption
 but it happened anyway: Claude Code sessions for three teams so far, and a
 setup guide that gets passed around on its own. Physics PhD before that.
 
