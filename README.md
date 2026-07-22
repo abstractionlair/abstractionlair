@@ -172,7 +172,7 @@ Some completed projects, some ongoing.
   experiment in pure "vibe coding": how far could I get letting the models
   write essentially all of it, hands off the wheel? Far enough to be
   interesting, not far enough to be releasable. Independent model reviews
-  found the financial math held up but the engineering around it didn't —
+  found the financial math held up (they were wrong!) but the engineering around it didn't —
   and the multi-model review infrastructure I built since kept catching real
   bugs that vibe-coding alone had left in. The README explains.
 
