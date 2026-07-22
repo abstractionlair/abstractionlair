@@ -140,7 +140,7 @@ Some completed projects, some ongoing.
   
 - [quant-ingestion-and-simulation](https://github.com/abstractionlair/quant-ingestion-and-simulation):
   state-space framework based on the idea that ingestion is inverse simulation: one
-  ModelSpec drives Kalman filtering, multi-asset Monte Carlo, and
+  ModelSpec would drive Kalman filtering, multi-asset Monte Carlo, and
   historical-VaR correlation shocks.
   
 - [automated-post-training](https://github.com/abstractionlair/automated-post-training):
