@@ -24,9 +24,9 @@ reviews also tend to spark more rounds of conversation.
 
 In July 2026, while I had access to Claude Fable 5 through my Anthropic subscription, I applied these techniques
 (among others) to all my existing repos. I am very happy with how this went and it is the reason for the flurry
-of changes all at once. And used what I thought would be temporary access in a flurry of work across the repos.
-Then continued even after I learned it would be available via subscription on an ongoing basis. Either from momentum
-or because I was just having so much fun.
+of changes all at once. I was motivated by the thought that access was temporary. I continued even after I
+learned it would be available via subscription on an ongoing basis. Either due to momentum or the fact that I was
+having so much fun.
 
 ## Writing
 
