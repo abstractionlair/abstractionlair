@@ -36,8 +36,8 @@ having so much fun.
 
 ### Random Note
 Elsewhere I wrote about an experiment "when 3+ models agreed on a review finding, it was always real". This is correct but poorly worded.
-In _that_ experiment, that's what happened. _Those_ bugs were real. This is not a claim that in general, if three models agree something is a bug
-that it definitely is. It _is_ evidence in favor of mult-model review being helpful.
+In _that_ experiment, that's what happened. _Those_ bugs were real. This is not a claim that in general, if 3+ models agree something is a bug
+that it definitely is. Or that with 3+ models doing reviews you are certain to find all bigs. It _is_ evidence in favor of mult-model review being helpful.
 
 ## Repos
 
