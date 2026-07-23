@@ -34,6 +34,11 @@ having so much fun.
 - I have amassed a lot of stuff that I've been telling myself I _should_ write up. This is my attempt to make myself do it.
 - First post: multi-model code review: If a model writes code or creates another kind of artifact, will review by other models with different lineages find more bugs than reviews by the same model or models in the same lineage? And, for smaller/weaker models, do they do better if asked to just point to potential bugs/errors without trying to explain or suggest fixes?
 
+### Random Note
+Elsewhere I wrote about an experiment "when 3+ models agreed on a review finding, it was always real". This is correct but poorly worded.
+In _that_ experiment, that's what happened. _Those_ bugs were real. This is not a claim that in general, if three models agree something is a bug
+that it definitely is. It _is_ evidence in favor of mult-model review being helpful.
+
 ## Repos
 
 My repos are a sequence of experiments, in the research and
