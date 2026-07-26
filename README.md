@@ -14,6 +14,43 @@ One common theme is using multiple, _different_ models to check each other and
 cover blind spots. And I try my best to record both what worked and what didn't.
 (Negative results are results.)
 
+## Measurements
+
+- **[model-collaboration-study](https://github.com/abstractionlair/model-collaboration-study)** —
+  Pre-registered, power-analyzed: do multi-model collaboration
+  protocols beat the best single model at matched compute? Protocols
+  are programs in a typed language; Phase 1 is the first one —
+  verifiable outcomes, N=86 pilot: none did, parity cost 3.9×, one
+  positive (repeat-sampling +0.094). Negative reported in full.
+
+- **[review-diversity](https://github.com/abstractionlair/review-diversity)** —
+  does model diversity improve model-conducted review, at roughly fixed
+  cost? Ground truth: manually verified real bug-fix pairs — deliberately
+  not consensus grading, because consensus is part of what's under test.
+  Registration is staged: publication of the design post pins the
+  registered commit. (There's also a
+  [blog post](https://writingcommitmentdevice.substack.com/p/are-two-models-better-than-one-for)
+  about this.)
+
+- **Bug-factory pilots** ([same repo](https://github.com/abstractionlair/review-diversity),
+  `factory/`) — four pilots against pre-stated go/no-go bands: a June
+  micro-pilot NO-GO, then three July follow-ups — two predictions falsified
+  (71/72 and 18/18 one-shot), one recipe conditionally viable but declined
+  on cost. All 123 trajectories committed as verifiable git bundles.
+
+- **[claude-hub](https://github.com/abstractionlair/claude-hub) reviewer
+  grading** — multi-model code review with an LLM grading reviews to help
+  with model choice; the grader's known consensus bias is documented in the
+  README, with links to the analysis and ranked fixes.
+
+- **[one-spec-five-agents](https://github.com/abstractionlair/one-spec-five-agents)** —
+  the same app built using five different model+harness combinations;
+  different results from the same model with different harnesses;
+  self-reported completion wasn't a reliable indicator of actual
+  completion.
+
+## Development Process
+
 Much of what's here was written using these techniques. Code, natural language documents, everything.
 Aside from one experiment really leaning into vibe coding, which wasn't satisfactory (but wait until
 next year), these are high-engagement on my part. But with my contributions being more like what I've done
