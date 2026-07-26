@@ -76,7 +76,7 @@ Elsewhere I wrote about an experiment "when 3+ models agreed on a review finding
 In _that_ experiment, that's what happened. _Those_ bugs were real. This is not a claim that in general, if 3+ models agree something is a bug
 that it definitely is. Or that with 3+ models doing reviews you are certain to find all bugs. It _is_ evidence in favor of multi-model review being helpful.
 
-## Repos
+## Repos (more exhaustive)
 
 My repos are a sequence of experiments, in the research and
 development senses. Success is about the sequence not the individual
