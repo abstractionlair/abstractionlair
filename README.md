@@ -206,9 +206,7 @@ Some completed projects, some ongoing.
 
 - [MultiModelChat](https://github.com/abstractionlair/MultiModelChat):
   multi-model web chat: one conversation, several frontier models, with
-  projects, file context, and full-text search. **Try it live:**
-  [chat.abstractionlair.xyz](https://chat.abstractionlair.xyz) (a public
-  sandbox restricted to cheap models, with cost controls). Code-execution phase
+  projects, file context, and full-text search. Code-execution phase
   specced, not started. (TUI harnesses like Claude Code and Codex plus the multi-model
   interaction tools on claude-hub now fill the role this would have filled.)
 
