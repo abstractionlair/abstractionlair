@@ -155,7 +155,7 @@ Some completed projects, some ongoing.
 - [model-collaboration-study](https://github.com/abstractionlair/model-collaboration-study):
   an experiment designed in the open before any data: do collaboration structures (debate, peer
   review, fusion) beat a single model at fixed budget? Typed IR for protocol
-  composition; power analysis before kickoff.
+  composition; phase 1 pilot ran in July 2026; its outcome is under Measurements above.
   
 - [dev-workflow](https://github.com/abstractionlair/dev-workflow): a
   distilled, importable process for spec-driven development with multi-model
