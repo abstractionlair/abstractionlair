@@ -397,18 +397,6 @@ through the cutoff.*
   why an untracked file had drifted undetected for months — RESULT: MIXED — four concrete
   process changes followed the self-diagnosis — [FIRST-HAND]
 
-- **2026-06 — Bug-factory micro-pilot: NO-GO** — Designed and ran a from-scratch synthetic-
-  bug generator (one model writes a coding task, another implements it in a scripted
-  code–test–debug loop, buggy intermediate states harvested as review-corpus material)
-  against a pre-stated go/no-go decision band, after a methodology review forced real
-  revisions first (blinded screening, bias metrics, a smoke-review recall check) —
-  RESULT: NEGATIVE, clean — harvested 1 usable bug from 24 trajectories (~4%) against a
-  30%-on-at-least-one-tier decision band; generated tasks were too easy for even the weakest
-  tested implementer to fail on. Explicitly logged as not a general verdict on
-  model-authored bug factories, only on this exact recipe — two concrete follow-up pilots
-  proposed — resolved by the July pilots, below — [FIRST-HAND idea origination and pilot
-  design, SUPERVISED execution]
-
 - **2026-06 — Review-diversity: first public post published** — Published a first post on
   multi-model code review, explicit that the historical ad-hoc review data was "casual
   noticing of a pattern," not evidence on its own, paired with a proposed follow-up design
@@ -486,25 +474,6 @@ through the cutoff.*
   criterion power estimated at 0.864 at N=50; a marginal-vs-per-cell odds-ratio wrinkle
   (2.0 vs. ≈2.46) surfaced and was deliberately left open for a considered decision rather
   than silently resolved — [SUPERVISED]
-
-- **2026-07 — Bug-factory follow-up pilots: two falsified preregistrations, one
-  cost-declined viability** — Ran the three follow-up pilots the June micro-pilot had left
-  proposed, each against a pre-stated design. Pilot A (reference-reject recipe): proved
-  conditionally viable — five usable bugs harvested; reject rate 8.7% [5.4–13.9];
-  downstream pipeline cost $0.28 per usable bug (gate + repair + screen — "marginal" only
-  under the report's stated generation-treated-as-sunk scenario); fully loaded ~$2.37/bug,
-  ~$710 per 300 (range $480–$1,100 from the reject-rate CI alone, stated in the report as
-  a lower bound on the true uncertainty) — with an oracle-coherence blocker identified;
-  the scale-up was declined against an informal ≤$1/bug band on the fully-loaded number,
-  explicitly not on mechanism. Pilot B: the prediction that frontier
-  models would be weak enough implementers to yield organic bugs was FALSIFIED — 71 of 72
-  one-shot passes. Pilot C (algorithmic-depth seeds, a deliberately harder self-challenge):
-  falsified and scored — 18 of 18 one-shot even under enforced complexity bounds, with the
-  mechanism identified (classic algorithms are retrieval; stating the complexity bound
-  names the algorithm). Total pilot spend ~$18 — RESULT: MIXED — the tested single-file
-  recipes are exhausted and the two scored, falsified predictions stay on the record; the
-  wider design space is explicitly left open — [FIRST-HAND design and rulings, SUPERVISED
-  execution]
 
 ---
 
