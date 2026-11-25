@@ -48,6 +48,13 @@ cover blind spots. And I try my best to record both what worked and what didn't.
   different results from the same model with different harnesses;
   self-reported completion wasn't a reliable indicator of actual
   completion.
+  
+- **[eval-diversity-demo](https://github.com/abstractionlair/eval-diversity-demo)** —
+  how good are LLM judges, measured rather than assumed?
+  Three judges from different lineages grade 160 GSM8K answers blind; planted
+  flaws and planted-clean controls measure each judge's miss and false-alarm
+  rates before asking whether they agree. Runnable in one command; limitations,
+  including a generator/judge lineage confound, stated in the results.
 
 ## Development Process
 
