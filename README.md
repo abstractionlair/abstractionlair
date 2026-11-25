@@ -33,10 +33,10 @@ cover blind spots. And I try my best to record both what worked and what didn't.
   about this.)
 
 - **Bug-factory pilots** ([same repo](https://github.com/abstractionlair/review-diversity),
-  `factory/`) — four pilots against pre-stated go/no-go bands: a June
-  micro-pilot NO-GO, then three July follow-ups — two predictions falsified
-  (71/72 and 18/18 one-shot), one recipe conditionally viable but declined
-  on cost. All 123 trajectories committed as verifiable git bundles.
+  `factory/`) — four pilots: a June micro-pilot NO-GO, then three July
+  follow-ups — two predictions falsified (71/72 and 18/18 one-shot), one
+  recipe conditionally viable but declined on cost. All 123 trajectories
+  committed as verifiable git bundles.
 
 - **[claude-hub](https://github.com/abstractionlair/claude-hub) reviewer
   grading** — multi-model code review with an LLM grading reviews to help
