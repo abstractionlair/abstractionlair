@@ -32,12 +32,6 @@ cover blind spots. And I try my best to record both what worked and what didn't.
   [blog post](https://writingcommitmentdevice.substack.com/p/are-two-models-better-than-one-for)
   about this.)
 
-- **Bug-factory pilots** ([same repo](https://github.com/abstractionlair/review-diversity),
-  `factory/`) — four pilots: a June micro-pilot NO-GO, then three July
-  follow-ups — two predictions falsified (71/72 and 18/18 one-shot), one
-  recipe conditionally viable but declined on cost. All 123 trajectories
-  committed as verifiable git bundles.
-
 - **[claude-hub](https://github.com/abstractionlair/claude-hub) reviewer
   grading** — multi-model code review with an LLM grading reviews to help
   with model choice; the grader's known consensus bias is documented in the
